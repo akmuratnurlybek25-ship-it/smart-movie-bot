@@ -14,7 +14,8 @@ from telegram.ext import (
 print("🔥 SMART MOVIE BOT STARTED")
 
 # 🔑 ОСЫ ЖЕРГЕ ӨЗІҢНІҢ КЛЮЧТЕРІН ҚОЙ
-TOKEN = "8753096730:AAESqV0zjvgWuguQ2wDgiA-r1dCjFoFhi9Q"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 OMDB_API = "fc5f225a"
 
 keyboard = [["🎬 Кино"]]
